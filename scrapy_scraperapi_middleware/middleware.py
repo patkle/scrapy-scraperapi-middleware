@@ -5,8 +5,8 @@ class ScrapyScraperAPIMiddleware:
     """This middleware applies your ScraperAPI settings to be used as a proxy"""
 
     def __init__(self, settings) -> None:
-        self.key = settings.get('SCRAPER_API_KEY')
-        self.user = self.__get_user(settings.get('SCRAPER_API_OPTIONS'))
+        self.key = settings.get('SCRAPERAPI_KEY')
+        self.user = self.__get_user(settings.get('SCRAPERAPI_OPTIONS'))
 
     @classmethod
     def from_crawler(cls, crawler) -> ScrapyScraperAPIMiddleware:
