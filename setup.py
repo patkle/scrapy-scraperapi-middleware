@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name='scrapy-scraperapi-middleware',
-    version='0.1',
+    version='0.2',
     license='MIT',
     description='Middleware to easily implement ScraperAPI in Scrapy projects',
     long_description_content_type='text/markdown',
