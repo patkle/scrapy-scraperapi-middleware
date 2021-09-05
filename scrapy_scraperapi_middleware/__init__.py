@@ -1,1 +1,1 @@
-from .middleware import ScraperAPIMiddleware
+from .middleware import ScrapyScraperAPIMiddleware
