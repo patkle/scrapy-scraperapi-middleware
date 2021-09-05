@@ -16,11 +16,11 @@ You need to specify your key for Scraper API in your settings.py or settings obj
 SCRAPERAPI_KEY = 'your_key'
 ```
 
-You also need to enable ScraperAPIMiddleware as well as Scrapy's HttpProxyMiddleware. 
+You also need to enable ScrapyScraperAPIMiddleware as well as Scrapy's HttpProxyMiddleware. 
 
 ```python
 DOWNLOADER_MIDDLEWARES = {
-    'your_project.middleware_file.ScraperAPIMiddleware': 350,
+    'scrapy_scraperapi_middleware.ScrapyScraperAPIMiddleware': 350,
     'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 400,
 }
 ```
