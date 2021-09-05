@@ -1,4 +1,5 @@
 # scrapy-scraperapi-middleware
+[![scrapy-scraperapi-middleware on pypi](https://img.shields.io/pypi/v/scrapy-scraperapi-middleware?color=blue)](https://pypi.org/project/scrapy-scraperapi-middleware/)  
 This middleware lets you use [Scraper API](https://www.scraperapi.com/?fp_ref=patrick50) for every request you process with Scrapy.  
 You could instead set the `proxy` field of your request's meta attribute to `http://scraperapi.your=options:your_key@proxy-server.scraperapi.com:8001` and enable `HttpProxyMiddleware`.  
 This middleware's only purpose is to achieve this in a more convenient manner.  
