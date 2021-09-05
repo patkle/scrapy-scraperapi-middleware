@@ -27,6 +27,5 @@ setup(
     packages=['scrapy_scraperapi_middleware'],
     install_requires=[
         'importlib-metadata ~= 1.0 ; python_version < "3.8"',
-        'scrapy'
     ]
 )
