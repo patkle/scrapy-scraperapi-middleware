@@ -37,4 +37,4 @@ SCRAPERAPI_OPTIONS = {
 ```
 
 ## Affiliate link
-If this example is helpful to you and you do not yet have a subscription to Scraper API, consider using [my affiliate link](https://www.scraperapi.com/pricing?fp_ref=patrick50) if you plan on getting one. Be aware that all other links to ScraperAPI in this Readme are also affiliate links.
+If this package is helpful to you and you do not yet have a subscription to Scraper API, consider using [my affiliate link](https://www.scraperapi.com/pricing?fp_ref=patrick50) if you plan on getting one. Be aware that all other links to ScraperAPI in this Readme are also affiliate links.
